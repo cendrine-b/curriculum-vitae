@@ -33,8 +33,19 @@ header h2 {
   margin: 0.8em 0;
 }
 
-header a {
+header .btn {
   margin-top: 1.8em;
+  border: solid #112378 1px;
+  background-color: white;
+  color: #112378;
+}
+
+header .btn:active,
+header .btn:visited,
+header .btn:focus,
+header .btn:hover {
+  background-color: #112378;
+  color: white;
 }
 
 /* ///////////////////////////////// MAIN ///////////////////////////////// */
