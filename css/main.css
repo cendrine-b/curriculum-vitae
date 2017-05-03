@@ -4,6 +4,7 @@ body,
 html {
   height: 100%;
   word-wrap: break-word;
+  background-color: #fafafa;
 }
 
 p {
@@ -30,6 +31,10 @@ header h2 {
   line-height: 1.2em;
   color: #112378;
   margin: 0.8em 0;
+}
+
+header a {
+  margin-top: 1.8em;
 }
 
 /* ///////////////////////////////// MAIN ///////////////////////////////// */
