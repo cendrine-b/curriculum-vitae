@@ -1,7 +1,7 @@
 /* ///////////////////////////////// GENERAL ///////////////////////////////// */
 
 p {
-  margin-top: 0;
+  margin: 0;
 }
 
 /* ///////////////////////////////// HEADER ///////////////////////////////// */
@@ -28,6 +28,8 @@ header h2 {
 
 /* ///////////////////////////////// MAIN ///////////////////////////////// */
 
+/* SECOND COLUMN */
+
 main h3 {
   font-size: 2.8em;
   margin-top: 0;
@@ -38,8 +40,8 @@ main h4 {
   margin: 1.4em 0 0 0;
 }
 
-main .infoExp,
-main .infoEdu {
+.infoExp,
+.infoEdu {
   font-size: 1em;
   font-weight: 500;
   line-height: 1.4em;
@@ -47,14 +49,20 @@ main .infoEdu {
   padding: 0;
 }
 
-main .infoExp {
+.infoExp {
   margin: 0.6em 0 0.4em 0;
 }
 
-main .infoEdu {
+.infoEdu {
   margin: 0.4em 0;
 }
 
+/* FIRST COLUMN */
+
+.skills h4,
 .languages h4 {
-  margin-top: 25px;
+  font-size: 1.4em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
 }
