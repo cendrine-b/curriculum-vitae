@@ -1,0 +1,135 @@
+/* ///////////////////////////////// GENERAL ///////////////////////////////// */
+
+body,
+html {
+  height: 100%;
+  word-wrap: break-word;
+  background-color: #fafafa;
+}
+
+p {
+  margin: 0;
+}
+
+/* ///////////////////////////////// HEADER ///////////////////////////////// */
+
+header .about,
+header .row,
+header img {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+
+header h2 {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #112378;
+  margin: 0.8em 0;
+}
+
+header p {
+  margin-bottom: 0.5em;
+}
+
+header .btn {
+  margin-top: 1.2em;
+  border: solid #112378 1px;
+  background-color: white;
+  color: #112378;
+}
+
+header .btn:active,
+header .btn:focus,
+header .btn:hover {
+  background-color: #112378;
+  color: white;
+}
+
+/* ///////////////////////////////// MAIN ///////////////////////////////// */
+
+/* --------------------- FIRST COLUMN --------------------- */
+
+#row1,
+#row2,
+#row3 {
+  margin-bottom: 0;
+}
+
+.firstColumn h4 {
+  font-size: 1.4em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 0 1em 0;
+}
+
+.contact .row {
+  margin-bottom: 0.8em;
+}
+
+.contact .material-icons {
+  color: #112378;
+}
+
+.contact .row:last-of-type {
+  margin-bottom: 0;
+}
+
+.skills label {
+  font-size: 1em;
+  color: black;
+}
+
+div.progress {
+  background-color: #c5cae9;
+}
+
+.languages h5 {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1em 0 0.5em 0;
+}
+
+.interests ul,
+.social .row {
+  margin: 0;
+}
+
+.social i {
+  font-size: 2em;
+  color: #112378;
+}
+
+/* --------------------- SECOND COLUMN --------------------- */
+
+main h3 {
+  font-size: 2.6em;
+  margin-top: 0;
+}
+
+main h4 {
+  font-size: 1.4em;
+  margin: 1.4em 0 0;
+}
+
+.infoExp,
+.infoEdu {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #5c6bc0;
+}
+
+.infoExp {
+  margin: 0.6em 0 0.4em 0;
+}
+
+.infoEdu {
+  margin: 0.4em 0;
+}
