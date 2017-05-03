@@ -14,8 +14,7 @@ p {
 /* ///////////////////////////////// HEADER ///////////////////////////////// */
 
 header .about,
-header img,
-header p {
+header img {
   margin: 0;
   padding: 0;
 }
@@ -26,22 +25,25 @@ header h1 {
 }
 
 header h2 {
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: 500;
   line-height: 1.2em;
   color: #112378;
   margin: 0.8em 0;
 }
 
+header p {
+  margin-bottom: 0.5em;
+}
+
 header .btn {
-  margin-top: 1.8em;
+  margin-top: 1.2em;
   border: solid #112378 1px;
   background-color: white;
   color: #112378;
 }
 
 header .btn:active,
-header .btn:visited,
 header .btn:focus,
 header .btn:hover {
   background-color: #112378;
@@ -50,36 +52,7 @@ header .btn:hover {
 
 /* ///////////////////////////////// MAIN ///////////////////////////////// */
 
-/* SECOND COLUMN */
-
-main h3 {
-  font-size: 2.8em;
-  margin-top: 0;
-}
-
-main h4 {
-  font-size: 1.4em;
-  margin: 1.4em 0 0 0;
-}
-
-.infoExp,
-.infoEdu {
-  font-size: 1em;
-  font-weight: 500;
-  line-height: 1.4em;
-  color: #5c6bc0;
-  padding: 0;
-}
-
-.infoExp {
-  margin: 0.6em 0 0.4em 0;
-}
-
-.infoEdu {
-  margin: 0.4em 0;
-}
-
-/* FIRST COLUMN */
+/* --------------------- FIRST COLUMN --------------------- */
 
 #row1,
 #row2,
@@ -87,11 +60,7 @@ main h4 {
   margin-bottom: 0;
 }
 
-.contact h4,
-.skills h4,
-.languages h4,
-.interests h4,
-.social h4 {
+.firstColumn h4 {
   font-size: 1.4em;
   font-weight: 500;
   text-transform: uppercase;
@@ -115,8 +84,8 @@ main h4 {
   color: black;
 }
 
-.progress {
-  background-color: #c5cae9 !important;
+div.progress {
+  background-color: #c5cae9;
 }
 
 .languages h5 {
@@ -125,10 +94,7 @@ main h4 {
   margin: 1em 0 0.5em 0;
 }
 
-.interests ul {
-  margin: 0;
-}
-
+.interests ul,
 .social .row {
   margin: 0;
 }
@@ -136,4 +102,32 @@ main h4 {
 .social i {
   font-size: 2em;
   color: #112378;
+}
+
+/* --------------------- SECOND COLUMN --------------------- */
+
+main h3 {
+  font-size: 2.6em;
+  margin-top: 0;
+}
+
+main h4 {
+  font-size: 1.4em;
+  margin: 1.4em 0 0;
+}
+
+.infoExp,
+.infoEdu {
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #5c6bc0;
+}
+
+.infoExp {
+  margin: 0.6em 0 0.4em 0;
+}
+
+.infoEdu {
+  margin: 0.4em 0;
 }
