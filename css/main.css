@@ -45,7 +45,7 @@ main h4 {
   font-size: 1em;
   font-weight: 500;
   line-height: 1.4em;
-  color: grey;
+  color: #5c6bc0;
   padding: 0;
 }
 
@@ -60,16 +60,34 @@ main h4 {
 /* FIRST COLUMN */
 
 .skills h4,
-.languages h4 {
+.languages h4,
+.interests h4 {
   font-size: 1.4em;
   font-weight: 500;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 1em 0;
 }
 
-.skills h5,
 .languages h5 {
   font-size: 1em;
   font-weight: 600;
   margin: 1em 0 0.5em 0;
+}
+
+.skills label {
+  font-size: 1em;
+  font-weight: 500;
+  color: black;
+  margin-right: 1em;
+  padding: 0;
+}
+
+.progress {
+  background-color: #c5cae9 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.interests ul {
+  margin: 0;
 }
