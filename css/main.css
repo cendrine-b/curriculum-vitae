@@ -66,3 +66,10 @@ main h4 {
   text-transform: uppercase;
   margin: 0;
 }
+
+.skills h5,
+.languages h5 {
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1em 0 0.5em 0;
+}
